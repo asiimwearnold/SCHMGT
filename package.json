@@ -1,0 +1,46 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "back-end application to be used by career students for schook",
+  "type": "module",
+  "main": "index.js",
+ 
+  "scripts": {
+    "development": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "career",
+    "online",
+    "userlogin",
+    "userlogout",
+    "create",
+    "account",
+    "delete",
+    "account",
+    "permitions"
+  ],
+  "author": "asiimwe",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.3.1",
+    "moongoose": "^0.0.5",
+    "nodemon": "^2.0.15"
+  }
+}
